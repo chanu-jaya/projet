@@ -313,3 +313,30 @@
         border-radius: 15px;
         
     }
+
+    @media screen and (max-width: 1024px){
+        body{
+            background-color: antiquewhite;
+        }
+        .resp{
+            color:red;
+        }
+        img{
+            display: none;
+        }
+    }
+    
+    
+     @media all and (max-device-width: 480px)
+    {
+        body{
+            background-color: blueviolet;
+        }
+        p{
+            color: green;
+        }
+        .resp{
+            color: yellow;
+        }
+    
+    }
